@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বইবিতান</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- -Favicon  -->
+    <link rel="shortcut icon" href="./Favicon.png" type="image/svg+xml">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fas fa-book"></i> বইবিতান </a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="এখানে খুঁজুন..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">হোম</a>
+                <a href="#featured">বিশেষ অফার</a>
+                <a href="#arrivals">নতুন বই</a>
+                <a href="#reviews">পর্যালোচনা</a>
+                <a href="#blogs">ব্লগ</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>সাইন ইন করুন</h3>
+            <span>ব্যবহারকারীর নাম</span>
+            <input type="email" name="" class="box" placeholder="আপনার ইমেইল লিখুন" id="">
+            <span>পাসওয়ার্ড</span>
+            <input type="password" name="" class="box" placeholder="আপনার পাসওয়ার্ড লিখুন" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> আমাকে মনে রেখো</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>পাসওয়ার্ড ভুলে গেছেন ? <a href="#">এখানে ক্লিক করুন</a></p>
+            <p>কোন অ্যাকাউন্ট নেই? <a href="#">একটি তৈরি করুন</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>৭৫% পর্যন্ত ছাড়</h3>
+                <p>আপনাদের সবার জন্য একটি সুখবর, আমাদের ওয়েবসাইট থেকে কোন বই কিনলে ৭৫% পাবেন
+                    ডিসকাউন্ট এবং আপনি বিনামূল্যে ডেলিভারি পাবেন ।</p>
+                <a href="#" class="btn">এখনই কিনুন</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ense  -->
+
+    <!-- icons section starts  -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-shipping-fast"></i>
+            <div class="content">
+                <h3>ফ্রি শিপিং</h3>
+                <p>৳ ১০০-এর বেশি অর্ডার করুন</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>নিরাপদ পেমেন্ট</h3>
+                <p>১০০% নিরাপদ পেমেন্ট</< /p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>সহজ রিটার্ন</h3>
+                <p>১০ দিনের রিটার্ন সুবিধা</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>২৪/৭ সমর্থন</h3>
+                <p>যেকোনো সময় আমাদের কল করুন</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>বৈশিষ্ট্যযুক্ত বই</span> </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>শব্দের যাত্রা</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>অক্ষরের রহস্য</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>বইয়ের রাজ্য</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>গল্পের গহীন সন্ধান</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>শব্দের জাদুকর</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>অপরিচিত পৃষ্ঠা</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>বৈশিষ্ট্যযুক্ত বই</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>বইয়ের ছায়াপথ</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>কল্পনার ক্যানভাস</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>হারিয়ে যাওয়া গল্প</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <a href="#" class="btn">কার্টে যোগ করুন</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--<div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>-->
+
+        </div>
+
+    </section>
+
+    <!-- featured section ends -->
+
+    <!-- newsletter section starts -->
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>সর্বশেষ আপডেটের জন্য সাবস্ক্রাইব করুন</h3>
+            <input type="email" name="" placeholder="আপনার ইমেইল লিখুন..." id="" class="box">
+            <input type="submit" value="সাবস্ক্রাইব করুন" class="btn">
+        </form>
+
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <h1 class="heading"> <span>নতুন বই</span> </h1>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>মেঘনাদবধ কাব্য</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>নিষিদ্ধ লোবান</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>দেয়াল</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>সিপাহী</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>ছদ্মবেশ</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>শত্রুছায়া</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>ঢোকশা</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>জীবন আমার বোন</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>বেসম্ভব</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>মেঘপরির দেশে</h3>
+                        <div class="price">৳ ১৫৫.৯৯ <span>৳ ২০০.৯৯</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal">
+
+        <div class="content">
+            <h3>আজকের অফার</h3>
+            <h1>৫০% ছাড়</h1>
+            <p>আপনার জন্য ভালো খবর, আপনি যদি শনিবার এবং রবিবারে কোনো বই কেনেন তবে পাবেন ৫০% ছাড় এবং সাথে পাবেন
+                ফ্রি ডেলিভারি।</p>
+            <a href="#" class="btn">এখনই শপিং করুন</a>
+        </div>
+
+        <div class="image">
+            <img src="image/deal-img.jpg" alt="">
+        </div>
+
+    </section>
+
+
+    <!-- deal section ends -->
+
+    <!-- reviews section starts  -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"> <span>ক্লায়েন্টের রিভিউ</span> </h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <h3>জন</h3>
+                    <p>ওয়েবসাইটটি খুব ভালো এবং রেসপনসিভ, এই ওয়েবসাইটে থাকা সব বই আসল এবং খুব সস্তা, আপনি আরামসে এগুলি
+                        কিনতে পারেন। পেমেন্টও খুব সহজে করা যায়।</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="">
+                    <h3>জুলিয়ানা</h3>
+                    <p>ওয়েবসাইটটি খুব ভালো এবং রেসপনসিভ, এই ওয়েবসাইটে থাকা সব বই আসল এবং খুব সস্তা, আপনি আরামসে এগুলি
+                        কিনতে পারেন। পেমেন্টও খুব সহজে করা যায়।</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="">
+                    <h3>জয়</h3>
+                    <p>ওয়েবসাইটটি খুব ভালো এবং রেসপনসিভ, এই ওয়েবসাইটে থাকা সব বই আসল এবং খুব সস্তা, আপনি আরামসে এগুলি
+                        কিনতে পারেন। পেমেন্টও খুব সহজে করা যায়।</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="">
+                    <h3>ওলিভিয়া</h3>
+                    <p>ওয়েবসাইটটি খুব ভালো এবং রেসপনসিভ, এই ওয়েবসাইটে থাকা সব বই আসল এবং খুব সস্তা, আপনি আরামসে এগুলি
+                        কিনতে পারেন। পেমেন্টও খুব সহজে করা যায়।</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-5.png" alt="">
+                    <h3>উইলিয়াম</h3>
+                    <p>ওয়েবসাইটটি খুব ভালো এবং রেসপনসিভ, এই ওয়েবসাইটে থাকা সব বই আসল এবং খুব সস্তা, আপনি আরামসে এগুলি
+                        কিনতে পারেন। পেমেন্টও খুব সহজে করা যায়।</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-6.png" alt="">
+                    <h3>আভা</h3>
+                    <p>ওয়েবসাইটটি খুব ভালো এবং রেসপনসিভ, এই ওয়েবসাইটে থাকা সব বই আসল এবং খুব সস্তা, আপনি আরামসে এগুলি
+                        কিনতে পারেন। পেমেন্টও খুব সহজে করা যায়।</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> <span>আমাদের ব্লগ</span> </h1>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>পৃষ্ঠা ও প্রাণ – বইয়ের জগতে ডুব দিন</h3>
+                        <p>বই আমাদের জীবনের জন্য খুবই উপকারী। আমাদের প্রতিদিন বই পড়া উচিত, এটি মনকে তীক্ষ্ণ করে। পৃথিবীর
+                            সকল
+                            সফল মানুষ প্রতিদিন বই পড়েন।</p>
+                        <a href="#" class="btn">আরও পড়ুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>বইয়ের গন্ধ – সাহিত্যের মায়াবী দুনিয়া</h3>
+                        <p>বই আমাদের জীবনের জন্য খুবই উপকারী। আমাদের প্রতিদিন বই পড়া উচিত, এটি মনকে তীক্ষ্ণ করে। পৃথিবীর
+                            সকল
+                            সফল মানুষ প্রতিদিন বই পড়েন।</p>
+                        <a href="#" class="btn">আরও পড়ুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>অক্ষরের আলো – পাঠকের জন্য বই আলোচনা</h3>
+                        <p>বই আমাদের জীবনের জন্য খুবই উপকারী। আমাদের প্রতিদিন বই পড়া উচিত, এটি মনকে তীক্ষ্ণ করে। পৃথিবীর
+                            সকল
+                            সফল মানুষ প্রতিদিন বই পড়েন।</p>
+                        <a href="#" class="btn">আরও পড়ুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>শব্দের জাদুকরী রাজ্য – বই ও সাহিত্য আলোচনা</h3>
+                        <p>বই আমাদের জীবনের জন্য খুবই উপকারী। আমাদের প্রতিদিন বই পড়া উচিত, এটি মনকে তীক্ষ্ণ করে। পৃথিবীর
+                            সকল
+                            সফল মানুষ প্রতিদিন বই পড়েন।</p>
+                        <a href="#" class="btn">আরও পড়ুন</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>বইয়ের ডায়েরি – প্রতিদিনের পাঠ ও পর্যালোচনা</h3>
+                        <p>বই আমাদের জীবনের জন্য খুবই উপকারী। আমাদের প্রতিদিন বই পড়া উচিত, এটি মনকে তীক্ষ্ণ করে। পৃথিবীর
+                            সকল
+                            সফল মানুষ প্রতিদিন বই পড়েন।</p>
+                        <a href="#" class="btn">আরও পড়ুন</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>আমাদের অবস্থান</h3>
+                <a href="#"> <i class="fa-map-marker-alt fas"></i> ঢাকা </a>
+                <a href="#"> <i class="fa-map-marker-alt fas"></i> চট্টগ্রাম </a>
+                <a href="#"> <i class="fa-map-marker-alt fas"></i> রাজশাহী </a>
+                <a href="#"> <i class="fa-map-marker-alt fas"></i> সিলেট </a>
+                <a href="#"> <i class="fa-map-marker-alt fas"></i> রংপুর </a>
+            </div>
+
+            <div class="box">
+                <h3>দ্রুত লিঙ্ক</h3>
+                <a href="#"> <i class="fa-arrow-right fas"></i> হোম </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> ফিচারড </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> আগমন </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> রিভিউ </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> ব্লগ </a>
+            </div>
+
+            <div class="box">
+                <h3>অতিরিক্ত লিঙ্ক</h3>
+                <a href="#"> <i class="fa-arrow-right fas"></i> অ্যাকাউন্ট তথ্য </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> অর্ডারকৃত আইটেম </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> প্রাইভেসি পলিসি </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> পেমেন্ট পদ্ধতি </a>
+                <a href="#"> <i class="fa-arrow-right fas"></i> আমাদের পরিষেবা </a>
+            </div>
+
+            <div class="box">
+                <h3>যোগাযোগের তথ্য</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +88015******** </a>
+                <a href="#"> <i class="fas fa-phone"></i> +88018******** </a>
+                <a href="#"> <i class="fas fa-envelope"></i>GunJon@gmail.com </a>
+                <img src="image/worldmap.png" class="map" alt="">
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> তৈরি করেছেন <span>GunJon</span> | সমস্ত অধিকার সংরক্ষিত! </div>
+
+    </section>
+
+
+    <!-- footer section ends -->
+
+    <!-- loader  -->
+
+    <div class="loader-container">
+        <img src="image/loader-img.gif" alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
